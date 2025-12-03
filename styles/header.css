@@ -1,0 +1,41 @@
+.cabecalho__menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block; /*somente inline nao permite alterar altura e largura da span que nesse caso é 24x24px*/
+}
+
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem{
+    padding: 1em;
+}
+
+.lista-menu{
+    display: none;   /*none faz o elemento desaparecer (a lista do ambuerguer) e nao ocupa nenhum espaço*/
+    position: absolute; 
+    top: 100%;
+}
+
+.container__botao:checked~.lista-menu{  /*cheched é uma pseduclasse que detecta se o input checkbox está selecionado*/
+    display: block;   /*o sinal ~ é chamado de combinador css, esse combinador vai procurar o elemento que vem em seguida e que tem a classe que foi inserida*/
+
+}
+/*se o container__botao estiver checked, vai procurar outro elemento que venha depois dele, que tenha a classe lista-menu e vai inserir o display block*/
+/*o til ~ é a maneira mais próxima de fazer uma condicionak e fazer algo acontecer se determinada ação ocorrer, mas para o a*/
+    

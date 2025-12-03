@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: relative; /*o valor relative permite usar atributos como left, right, top e bottom, então usa-se relative no pai para colocar o absolute no filho (lista-menu) e conseguir movimenta-lo para baixo */
     
 
 }
@@ -26,10 +26,11 @@
     padding: 1em;
 }
 
-.lista-menu{
+.lista-menu{ /*classe da url, é o que controla quando aparece e desaparece a lista de menu*/
     display: none;   /*none faz o elemento desaparecer (a lista do ambuerguer) e nao ocupa nenhum espaço*/
-    position: absolute; 
-    top: 100%;
+    position: absolute; /*permite movimentar o elemento de acordo com o pai (cabecalho) que teve a position diferente de static*/
+    top: 100%; /*faz o lista-menu ir para baixo do cabeçalho*/
+    width: 60vw; /*vm = viewport-width: pega 60% da largura no eixo x (horizintal) pra esticar o tamanho da lista-menu e chegar até o "coracao"*/
 }
 
 .container__botao:checked~.lista-menu{  /*cheched é uma pseduclasse que detecta se o input checkbox está selecionado*/
@@ -39,3 +40,26 @@
 /*se o container__botao estiver checked, vai procurar outro elemento que venha depois dele, que tenha a classe lista-menu e vai inserir o display block*/
 /*o til ~ é a maneira mais próxima de fazer uma condicionak e fazer algo acontecer se determinada ação ocorrer, mas para o a*/
     
+.lista-menu__titulo, .lista-menu__item{/*é o menu propriamente dito com a categoria e as opções*/
+    padding: 1em; /* isso é o espaçamento entre os itens basicamente*/
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+
+}
+
+.lista-menu__link{
+    background: var(--azul-degrade); /*esse background nao aplica apenas na fonte, mas sobre o texto, sendo que nem um marcador de texto*/
+    -webkit-background-clip: text; /*webkit serve para aplicar essa configuração de cor em outros navegadores*/
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /*essa propriedade "prende" a cor azul em degrade apenas onde tem texto, sem estar preenchido no fundo */
+    text-transform: uppercase;
+    text-decoration: none; /*tira o sublinhado*/
+}
+
+.container__botao{
+    display: none; /*faz o icone do checkboz desaparecer, está no html, mas nao aparece e nem ocupa espaço, igual foi com a lista-menu*/
+}

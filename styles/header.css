@@ -26,7 +26,7 @@
     padding: 1em;
 }
 
-.lista-menu{ /*classe da url, é o que controla quando aparece e desaparece a lista de menu*/
+.lista-menu{ /*classe da ul, é o que controla quando aparece e desaparece a lista de menu*/
     display: none;   /*none faz o elemento desaparecer (a lista do ambuerguer) e nao ocupa nenhum espaço*/
     position: absolute; /*permite movimentar o elemento de acordo com o pai (cabecalho) que teve a position diferente de static*/
     top: 100%; /*faz o lista-menu ir para baixo do cabeçalho*/
@@ -38,7 +38,7 @@
 
 }
 /*se o container__botao estiver checked, vai procurar outro elemento que venha depois dele, que tenha a classe lista-menu e vai inserir o display block*/
-/*o til ~ é a maneira mais próxima de fazer uma condicionak e fazer algo acontecer se determinada ação ocorrer, mas para o a*/
+/*o til ~ é a maneira mais próxima de fazer uma condicional e fazer algo acontecer se determinada ação ocorrer*/
     
 .lista-menu__titulo, .lista-menu__item{/*é o menu propriamente dito com a categoria e as opções*/
     padding: 1em; /* isso é o espaçamento entre os itens basicamente*/

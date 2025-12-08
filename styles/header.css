@@ -63,3 +63,5 @@
 .container__botao{
     display: none; /*faz o icone do checkboz desaparecer, está no html, mas nao aparece e nem ocupa espaço, igual foi com a lista-menu*/
 }
+
+@media screen and (min-width: 1024px){}

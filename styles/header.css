@@ -64,6 +64,14 @@
     display: none; /*faz o icone do checkboz desaparecer, está no html, mas nao aparece e nem ocupa espaço, igual foi com a lista-menu*/
 }
 
+.container__titulo{
+    display: none; /*faz esse titulo desaparecer quando é menor que 1024px de largura a tela*/
+}
+
+.opcoes{
+    display: none;
+}
+
 @media screen and (min-width: 1024px){
     .container__titulo, .container__titulo--negrito{
         font-family: var(--fonte-secundaria);
@@ -71,8 +79,40 @@
     }
     .container__titulo{
         font-weight: 400;
+        display: block;
     }
     .container__titulo--negrito{
         font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem-transparente{
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+    .opcoes__botao:checked~.lista-menu{
+        display: block;
+        width: auto; /*esse width é a largura padrão do item categorias, ou seja, preeche apenas o suficiente para ocupar seu espaço */
+    }
+
+    .opcoes__botao{
+        display: none;
     }
 }

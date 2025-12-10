@@ -15,7 +15,7 @@
 .swiper-button-prev, /*serve para ocultar setas de navegacao do carrosel*/
 .swiper-button-next{
     display: none;
-}
+} 
 
 .swiper-pagination{ /*classe das tres bolinhas de paginação - posicao inicial= em cima dos livros*/
     position: initial;
@@ -92,5 +92,10 @@
         display: block; /*Não estava funcionando em casa fazendo no mac pra setas de navegacao aparecer*/
         color: red; 
         top: 60%;
+    }
+
+    .card{
+        width: 40%;
+        margin: 2em auto;
     }
 }

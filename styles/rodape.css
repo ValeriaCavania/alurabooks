@@ -24,6 +24,7 @@ hr{
     .lista-rodape{
     display: block;
     }
+    
     .lista-rodape__titulo{
         font-size: 14px;
         color: var(--cinza-claro);

@@ -90,7 +90,6 @@
     .swiper-button-prev, /*serve para fazer aparecer as setas de navegacao do carrosel*/
     .swiper-button-next{
         display: block; /*Não estava funcionando em casa fazendo no mac pra setas de navegacao aparecer*/
-        color: red; 
         top: 60%;
     }
 

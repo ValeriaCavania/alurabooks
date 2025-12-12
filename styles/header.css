@@ -63,8 +63,8 @@
 .lista-menu__link{
     background: var(--azul-degrade); /*Normalmente, o background é aplicado atrás do elemento todo.*/
     -webkit-background-clip: text; /*webkit serve para aplicar essa configuração de cor de fundo só na letra, ou seja, “Mostre o background somente na área das letras*/
-    -webkit-text-fill-color: transparent;
-    background-clip: text; /*essa propriedade "prende" a cor azul em degrade apenas onde tem texto, sem estar preenchido no fundo */
+    -webkit-text-fill-color: transparent;/*por padrao o browser corta o background no formato do texto, mas por padrao o texto é preto, usa-se transparent para retirar o preto e mostrar o gradiente. */
+    background-clip: text; /*essa propriedade "prende" a cor azul em degrade apenas onde tem texto, faz o mesmo que o webkit-text-fill, mas background-clip: text padrão ainda não é universal em todos os navegadores */
     text-transform: uppercase;
     text-decoration: none; /*tira o sublinhado*/
 }

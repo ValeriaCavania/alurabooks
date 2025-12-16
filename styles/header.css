@@ -7,13 +7,13 @@
     display: inline-block; /*somente inline nao permite alterar altura e largura da span que nesse caso é 24x24px*/
 }
 
-.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer{ 
+.container__botao:checked ~ .container__rotulo > .container__imagem{ 
     background-image: url("../img/MenuAberto.svg");                        
  /*quando o .container__botao esta marcado, o til procura o elemento que tem .container__rotulo, no caso a label, e depois, o sinal de maior ele procura algo dentro desse elemento label, no caso o menu-amburguer*/
 }
 
 .container__botao:checked~.container__rotulo {
-     background: var(--azul-degrade);
+    background: var(--azul-degrade);
 }
 
 .cabecalho{
@@ -125,6 +125,9 @@
         color: var(--branco);
     }
 
+    .opções__item {
+        padding: 2em 1em;
+    }
     
     .lista-menu__item:hover{
         background: var(--azul-degrade);

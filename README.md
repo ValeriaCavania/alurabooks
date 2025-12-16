@@ -1,6 +1,8 @@
 <h1>📚 AluraBooks — Livraria Online </h1>
 
-![capa do projeto] (https://github.com/user-attachments/assets/d8bfbde4-cee2-47f9-b771-d729a90a3408)
+<img width="243" height="71" alt="Captura de tela 2025-12-16 142729" src="https://github.com/user-attachments/assets/d526e787-9ed7-43e6-9970-bc22f945aa55" />
+
+
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge)
 
 ## 📝 Sobre o projeto

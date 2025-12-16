@@ -1,19 +1,28 @@
-<h1> Livraria Online AluraBook </h1>
+<h1>📚 AluraBooks — Livraria Online </h1>
 
-<img width="367" height="117" alt="capa_readme" src="https://github.com/user-attachments/assets/d8bfbde4-cee2-47f9-b771-d729a90a3408" />
-
+![capa do projeto] (https://github.com/user-attachments/assets/d8bfbde4-cee2-47f9-b771-d729a90a3408)
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge)
 
-<h2>Técnicas e tecnologias utilizadas</h2>
-<p> Página web desenvolvida utilizando a metodologia Mobile-First com HTML e CSS.</p>
-<p> A página da livraria é responsiva e adapta seu layout para celular, tablet e desktop.</p>
-<p>Disponível em 
-  <a href="https://valeriacavania.github.io/alurabooks/" target="_blank">
-    https://valeriacavania.github.io/alurabooks/
-  </a>
-</p>
+## 📝 Sobre o projeto
+O **AluraBooks** é uma página de livraria online desenvolvida com foco na experiência do usuário em dispositivos móveis, seguindo a metodologia **Mobile First**. O projeto apresenta um layout moderno, organizado e totalmente responsivo.
+
+## 🚀 Tecnologias utilizadas
+- HTML5
+- CSS3
+- Metodologia Mobile First
 
 
+## 📱 Responsividade
+A aplicação se adapta automaticamente aos seguintes dispositivos:
+- 📱 Celular
+- 📱 Tablet
+- 💻 Desktop
 
-# Desenvolvedora
+## 🔗 Acesso ao projeto
+**[AluraBooks — Livraria Online](https://valeriacavania.github.io/alurabooks/)**
+
+
+## 👩‍💻 Desenvolvedora
 [<img loading="lazy" src="https://github.com/user-attachments/assets/b10dd452-cccf-4518-bd5f-8d4200c39a60" width=250><br><sub>Valéria</sub>](https://github.com/ValeriaCavania)
+
+✨ Projeto desenvolvido para fins de estudo e prática de HTML e CSS.

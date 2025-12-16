@@ -10,7 +10,4 @@
 
 
 # Desenvolvedora
-
-<img width="2000" height="2000" alt="octocat-1765908889993" src="https://github.com/user-attachments/assets/b10dd452-cccf-4518-bd5f-8d4200c39a60" />
-
-Valéria
+| [<img loading="lazy" src="https://github.com/user-attachments/assets/b10dd452-cccf-4518-bd5f-8d4200c39a60" width=115><br><sub>Valérias</sub>](https://github.com/ValeriaCavania)

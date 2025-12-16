@@ -7,7 +7,12 @@
 <h2>Técnicas e tecnologias utilizadas</h2>
 <p> Página web desenvolvida utilizando a metodologia Mobile-First com HTML e CSS.</p>
 <p> A página da livraria é responsiva e adapta seu layout para celular, tablet e desktop.</p>
-<p>Disponpivel em <a>https://valeriacavania.github.io/alurabooks/</a></p>
+<p>Disponível em 
+  <a href="https://valeriacavania.github.io/alurabooks/" target="_blank">
+    https://valeriacavania.github.io/alurabooks/
+  </a>
+</p>
+
 
 
 # Desenvolvedora

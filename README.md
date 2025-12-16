@@ -8,3 +8,9 @@
 <p> Página web desenvolvida utilizando a metodologia Mobile-First com HTML e CSS.</p>
 <p> A página da livraria é responsiva e adapta seu layout para celular, tablet e desktop.</p>
 
+
+# Desenvolvedora
+
+<img width="2000" height="2000" alt="octocat-1765908889993" src="https://github.com/user-attachments/assets/b10dd452-cccf-4518-bd5f-8d4200c39a60" />
+
+Valéria

@@ -1,7 +1,10 @@
-<h1 align="center"> Livraria Online AluraBook </h1>
+<h1> Livraria Online AluraBook </h1>
+
 <img width="367" height="117" alt="capa_readme" src="https://github.com/user-attachments/assets/d8bfbde4-cee2-47f9-b771-d729a90a3408" />
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge)
 
-
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20FINALIZADO&color=GREEN&style=for-the-badge)
+<h2>Técnicas e tecnologias utilizadas</h2>
+<p> Página web desenvolvida utilizando a metodologia Mobile-First com HTML e CSS.</p>
+<p> A página da livraria é responsiva e adapta seu layout para celular, tablet e desktop.</p>
 
